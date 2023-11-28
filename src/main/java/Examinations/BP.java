@@ -1,6 +1,5 @@
 package Examinations;
 
-import Examinations.Examination;
 
 import java.time.LocalDate;
 

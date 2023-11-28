@@ -27,7 +27,7 @@ public class DoctorDisplay {
 
 
         JLabel patient1resultsy = new JLabel("Blood Pressure: Systolic: "+bppatient1.get_info()+"mmHg");
-        JLabel patient1resultdy= new JLabel(" Diastolic: "+bppatient1.get_info_diastolic());
+        JLabel patient1resultdy= new JLabel(" Diastolic: "+bppatient1.get_info_diastolic()+"mmHg");
         JPanel panel = new JPanel();
 
 
@@ -37,7 +37,7 @@ public class DoctorDisplay {
 
         //Patient 2 information Output
         JLabel patient2resultsy = new JLabel("Blood Pressure: Systolic: "+bppatient2.get_info()+"mmHg");
-        JLabel patient2resultdy = new JLabel("Diastolic: "+bppatient2.get_info_diastolic());
+        JLabel patient2resultdy = new JLabel("Diastolic: "+bppatient2.get_info_diastolic()+"mmHg");
         panel.setVisible(true);
         //System output to the adminstrator for patient 2
         System.out.println("Patient: "+patient2.getFullName()+" MRI: "+mripatient2.get_info()+" Tesla "+mripatient2.get_date()+
