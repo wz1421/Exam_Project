@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c25b111a-39ed-43c5-b0d2-9b5dc298dc42" name="Changes" comment="" />
+    <list default="true" id="c25b111a-39ed-43c5-b0d2-9b5dc298dc42" name="Changes" comment="&quot;New classes created&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DoctorDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examinations/BP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examinations/Examination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MRI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examinations/MRI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Patient.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
@@ -29,6 +47,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "/Users/jingwenzhang/Documents/YEAR3/Exam_CID02026202/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -41,9 +64,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701163023701</updated>
-      <workItem from="1701163025429" duration="3000" />
+      <workItem from="1701163025429" duration="4334000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;New classes created&quot;">
+      <option name="closed" value="true" />
+      <created>1701164390109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701164390109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;New classes created&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;New classes created&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

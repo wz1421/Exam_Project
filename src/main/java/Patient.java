@@ -1,3 +1,6 @@
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 
 public class Patient {
@@ -5,9 +8,11 @@ public class Patient {
     private final String fullname;
     private final int ageofpatient;
 
-    private final URL fullurl;
+    private final String fullurl;
 
-    public Patient(String name, URL url, int age ){
+    private URL url;
+
+    public Patient(String name, String url, int age ){
         fullname = name;
         fullurl = url;
         ageofpatient = age;
@@ -15,11 +20,12 @@ public class Patient {
     public String getFullName() {
         return fullname;
     }
-    public int age(){
+    public int get_age(){
         return ageofpatient;
     }
-    public URL getURL(){
-        return fullurl;
+    public URL get_URL() {
+        return url;
+
     }
 
 
