@@ -23,8 +23,7 @@ public class BP extends Examination {
     @Override
     public String get_date() {
         LocalDate ld = LocalDate.of(Year,Month,Date);
-        String date = ld.toString();
-        return date;
+        return ld.toString();
     }
 
     @Override

@@ -1,5 +1,4 @@
 package Examinations;
-import java.net.URL;
 import java.time.LocalDate;
 
 public class MRI extends Examination {

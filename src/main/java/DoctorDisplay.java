@@ -25,7 +25,7 @@ public class DoctorDisplay {
         MRI mripatient2 = new MRI(4,2023,11,19,"https://martinh.netfirms.com/BIOE60010/mri2.jpg");
         BP bppatient2 = new BP(150,80,2023,11,20,"VST");
 
-
+        //Adding displayed text for patient1
         JLabel patient1resultsy = new JLabel("Blood Pressure: Systolic: "+bppatient1.get_info()+"mmHg");
         JLabel patient1resultdy= new JLabel(" Diastolic: "+bppatient1.get_info_diastolic()+"mmHg");
         JPanel panel = new JPanel();
@@ -35,17 +35,18 @@ public class DoctorDisplay {
         System.out.println("Patient: "+patient1.getFullName()+" MRI: "+mripatient1.get_info()+" Tesla "+mripatient1.get_date()+
                 " BP: "+bppatient1.getDuration()+","+bppatient1.get_date());
 
-        //Patient 2 information Output
+        //Adding displayed text for patient2
         JLabel patient2resultsy = new JLabel("Blood Pressure: Systolic: "+bppatient2.get_info()+"mmHg");
         JLabel patient2resultdy = new JLabel("Diastolic: "+bppatient2.get_info_diastolic()+"mmHg");
         panel.setVisible(true);
+
         //System output to the adminstrator for patient 2
         System.out.println("Patient: "+patient2.getFullName()+" MRI: "+mripatient2.get_info()+" Tesla "+mripatient2.get_date()+
                 " BP: "+bppatient2.getDuration()+","+bppatient2.get_date());
 
 
 
-        //adding Images from the URL
+        //adding Images from the URLs
         Image image = null;
         Image image2 = null;
         Image image3 = null;
@@ -106,7 +107,7 @@ public class DoctorDisplay {
 
         panel.setLayout(new GridLayout(2,4));
 
-        //adding panel to the Jframe
+        //adding panel to the JFrame
         frame.add(panel);
         frame.setSize(500,500);
         frame.setVisible(true);
