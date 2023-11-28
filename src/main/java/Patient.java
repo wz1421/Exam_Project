@@ -23,8 +23,8 @@ public class Patient {
     public int get_age(){
         return ageofpatient;
     }
-    public URL get_URL() {
-        return url;
+    public String get_URL() {
+        return fullurl;
 
     }
 
